@@ -44,4 +44,4 @@ app.layout = html.Div(children=[
 
 # Only for running on development mode
 if __name__ == '__main__':
-    app.run_server(debug=True, host='0.0.0.0', port=8080)
+    app.run_server(debug=True, host='168.181.186.73', port=8080)
