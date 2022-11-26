@@ -33,4 +33,4 @@ app.layout = html.Div(children=[
 
 # Only for running on development mode
 if __name__ == '__main__':
-    app.run_server(debug=True, host='vps-2993353-x.dattaweb.com', port=8081)
+    app.run_server(debug=True, host='0.0.0.0', port=8081)
